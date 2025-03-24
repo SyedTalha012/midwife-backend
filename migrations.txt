@@ -1,0 +1,20 @@
+ALTER TABLE public.users
+ADD COLUMN user_id SERIAL PRIMARY KEY,
+ADD COLUMN uid TEXT,
+ADD COLUMN username TEXT,
+ADD COLUMN profile_image TEXT,
+ADD COLUMN email TEXT UNIQUE NOT NULL,
+ADD COLUMN created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN onboarding_data JSONB,
+ADD COLUMN packages TEXT DEFAULT 'free';
+
+
+CREATE TABLE public.consultations (
+    consultation_id SERIAL PRIMARY KEY,
+    user_id INT REFERENCES users(user_id) ON DELETE CASCADE,
+    payment_status TEXT DEFAULT 'paid',
+    payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    consultation_date TIMESTAMP NOT NULL,
+    consultation_time TIME NOT NULL,
+    consultation_status TEXT DEFAULT 'active'
+);
