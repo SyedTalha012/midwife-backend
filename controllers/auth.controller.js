@@ -6,13 +6,15 @@ const createAccount = async (req,res)=>{
     let {uid,email,name,image} = req.body
     let userExists = await findUserByEmail(email);
     if (userExists.rows.length > 0) {
-        return res.status(400).json({ msg: "User already exists!",data:null });
+        res.status(200).json({ message: "User already exists!", data: userExists });
     }
     else{
         const newUser = await createUser(uid, email, name, image);
         res.status(201).json({ message: "User registered successfully", data: newUser });
     }
 }
+
+
 const loginAccount = async (req,res)=>{
     let {email} = req.body
     let userExists = await findUserByEmail(email);
@@ -23,6 +25,7 @@ const loginAccount = async (req,res)=>{
         res.status(201).json({ message: "User login successfully", data: userExists.rows });
     }
 }
+
 const getAccountById = async (req,res)=>{
     let {id} = req.params
     let userExists = await findUserById(id);
