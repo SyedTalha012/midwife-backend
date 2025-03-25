@@ -6,11 +6,11 @@ const createAccount = async (req,res)=>{
     let {uid,email,name,image} = req.body
     let userExists = await findUserByEmail(email);
     if (userExists.rows.length > 0) {
-        res.status(200).json({ message: "User already exists!", data: userExists.rows });
+        res.status(200).json({ message: "User already exists!", data: userExists.rows[0] });
     }
     else{
         const newUser = await createUser(uid, email, name, image);
-        res.status(201).json({ message: "User registered successfully", data: newUser[0] });
+        res.status(201).json({ message: "User registered successfully", data: newUser });
     }
 }
 
