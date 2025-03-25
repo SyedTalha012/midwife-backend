@@ -10,7 +10,7 @@ const createAccount = async (req,res)=>{
     }
     else{
         const newUser = await createUser(uid, email, name, image);
-        res.status(201).json({ message: "User registered successfully", data: newUser });
+        res.status(201).json({ message: "User registered successfully", data: newUser[0] });
     }
 }
 
