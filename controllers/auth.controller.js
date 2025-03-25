@@ -1,4 +1,4 @@
-const { createUser, findUserByEmail, findUserById, updateUsername, updateProfileImage, updateOnboarding } = require("../services/auth.services");
+const { createUser, findUserByEmail, findUserById, updateUsername, updateProfileImage, updateOnboarding, deleteUsers } = require("../services/auth.services");
 
 
 
@@ -84,6 +84,17 @@ const uploadProfileImage = async (req, res) => {
     }
 };
 
+const deleteAllUsers = async (req,res) =>{
+    try {
+        await deleteUsers();
+        res.status(200).json({ message: "All User Deleted Sucesfully", data: []});
+
+    } 
+    catch (error) {
+        console.log(error)
+    }
+}
 
 
-module.exports = {createAccount,loginAccount,getAccountById,editUsername,uploadProfileImage,updateOnboardingData}
+
+module.exports = {createAccount,loginAccount,getAccountById,editUsername,uploadProfileImage,updateOnboardingData,deleteAllUsers}

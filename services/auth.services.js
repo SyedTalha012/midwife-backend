@@ -62,4 +62,14 @@ module.exports = {
             throw error;
         }
     },
+    deleteUsers: async() => {
+        try {
+            await pool.query("DELETE FROM public.users",[]);
+            return "User Deleted";
+        } 
+        catch (error) {
+            console.log(error, "Error in updateProfileImage");
+            throw error;
+        }
+    },
 }
