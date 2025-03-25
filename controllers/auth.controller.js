@@ -6,7 +6,7 @@ const createAccount = async (req,res)=>{
     let {uid,email,name,image} = req.body
     let userExists = await findUserByEmail(email);
     if (userExists.rows.length > 0) {
-        res.status(200).json({ message: "User already exists!", data: userExists });
+        res.status(200).json({ message: "User already exists!", data: userExists.rows });
     }
     else{
         const newUser = await createUser(uid, email, name, image);
