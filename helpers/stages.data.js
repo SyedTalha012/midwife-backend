@@ -1,5 +1,42 @@
 const childGrowthData = [
     {
+        "week":1,
+        "fetusSizeMM": 1,
+        "fetusSizeInches": 0.04,
+        "fetusWeightG": null,
+        "fetusWeightOz": null,
+        "babySizeFruitComparison": "Poppy seed",
+        "image1": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
+        "image2": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
+        "image1Link": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
+        "image2Link": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
+        "free": false
+    },    {
+        "week": 2,
+        "fetusSizeMM": 1,
+        "fetusSizeInches": 0.04,
+        "fetusWeightG": null,
+        "fetusWeightOz": null,
+        "babySizeFruitComparison": "Poppy seed",
+        "image1": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
+        "image2": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
+        "image1Link": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
+        "image2Link": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
+        "free": false
+    },    {
+        "week": 3,
+        "fetusSizeMM": 1,
+        "fetusSizeInches": 0.04,
+        "fetusWeightG": null,
+        "fetusWeightOz": null,
+        "babySizeFruitComparison": "Poppy seed",
+        "image1": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
+        "image2": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
+        "image1Link": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
+        "image2Link": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
+        "free": false
+    },
+    {
         "week": 4,
         "fetusSizeMM": 1,
         "fetusSizeInches": 0.04,
