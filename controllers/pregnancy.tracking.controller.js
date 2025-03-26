@@ -8,7 +8,7 @@ const getPregnancyDetails = async (req,res)=>{
         return res.status(400).json({ msg: "User not found!",data:null });
     }
     else{
-        let data = calculateEDDWeeksAndDays(userExists.rows[0]?.onboarding_data?.last_menstrual_date?userExists.rows[0]?.onboarding_data?.last_menstrual_date:"2025-01-01")
+        let data = calculateEDDWeeksAndDays(userExists.rows[0]?.onboarding_data?.last_menstrual_date?userExists.rows[0]?.onboarding_data?.last_menstrual_date:"10/07/2024")
         res.status(201).json({ message: "User found successfully", data});
     }
 }
