@@ -1,4 +1,3 @@
-const upload = require("../config/multer.config");
 const { createConsultation, getConsultationBasedOnId, getConsultationBasedOnUserId, updateConsultationDateTime, changeConsultationStatus, deleteConsultationRecord, getAllConsultationsController } = require("../controllers/consultation.controller");
 const router = require("express").Router()
 

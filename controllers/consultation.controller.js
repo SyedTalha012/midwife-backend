@@ -2,8 +2,8 @@ const {create,findConsultationById,findConsultationByUserId,updateConsultationTi
 
 const createConsultation = async (req, res) => {
     try {
-        let { user_id, consultation_date, consultation_time } = req.body;
-        let response = await create(user_id, consultation_date, consultation_time);
+        let { user_id, consultation_date, consultation_time,midwiveId } = req.body;
+        let response = await create(user_id, consultation_date, consultation_time,midwiveId);
         res.status(201).json({ message: "Consultation created successfully", data: response });
     } 
     catch (error) {

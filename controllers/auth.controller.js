@@ -74,8 +74,8 @@ const updateOnboardingData = async (req, res) => {
 
 const uploadProfileImage = async (req, res) => {
     try {
-        const { id } = req.params; 
-        const imageUrl = `${req.protocol}://${req.get("host")}/uploads/${req.file.filename}`;
+        const { id } = req.params;
+        const imageUrl = `${req.protocol}://${req.get("host")}/uploads/${req?.file?.filename}`;
         let updatedUser = await updateProfileImage(id, imageUrl);
         res.status(200).json({ message: "Profile image updated successfully", data: updatedUser.rows[0] });
     } catch (error) {

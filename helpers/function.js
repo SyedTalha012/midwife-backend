@@ -51,5 +51,7 @@ const calculateEDDWeeksAndDays = (lmpDate) => {
     };
 };
 
-module.exports = { calculateEDDWeeksAndDays };
+module.exports = { calculateEDDWeeksAndDays, 
+    // convertToMinutes, convertToTime, addMinutesToTime, formatTime 
+};
 
