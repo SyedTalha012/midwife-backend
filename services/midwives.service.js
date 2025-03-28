@@ -24,7 +24,7 @@ module.exports = {
 
     findMidwifeById: async (id) => {
         try {
-            const midwife = await pool.query("SELECT * FROM midwives WHERE id = $1", [id]);
+            const midwife = await pool.query("SELECT * FROM dev.midwives WHERE id = $1", [id]);
             return midwife;
         } catch (error) {
             console.error("Error in findMidwifeById:", error);
@@ -34,7 +34,7 @@ module.exports = {
 
     findMidwifeByEmail: async (email) => {
         try {
-            const midwife = await pool.query("SELECT * FROM midwives WHERE email = $1", [email]);
+            const midwife = await pool.query("SELECT * FROM dev.midwives WHERE email = $1", [email]);
             return midwife;
         }
         catch (error) {
@@ -45,7 +45,7 @@ module.exports = {
 
     updateMidwife: async (id, name, email, availability) => {
         try {
-            const updatedMidwife = await pool.query("UPDATE midwives SET name = $1, email = $2, availability = $3 WHERE id = $4 RETURNING *", [name, email, availability, id]);
+            const updatedMidwife = await pool.query("UPDATE dev.midwives SET name = $1, email = $2, availability = $3 WHERE id = $4 RETURNING *", [name, email, availability, id]);
             return updatedMidwife;
         }
         catch (error) {
@@ -56,7 +56,7 @@ module.exports = {
 
     deleteMidwife: async (id) => {
         try {
-            const deletedMidwife = await pool.query("DELETE FROM midwives WHERE id = $1 RETURNING *", [id]);
+            const deletedMidwife = await pool.query("DELETE FROM dev.midwives WHERE id = $1 RETURNING *", [id]);
             return deletedMidwife;
         }
         catch (error) {
@@ -65,77 +65,6 @@ module.exports = {
         }
     },
 
-    // checkAvailableSlots:async (date) => {
-    //     try {
-    //         const dayOfWeek = new Date(date).toLocaleString('en-us', { weekday: 'long' }).toLowerCase();
-    //         console.log(dayOfWeek, 'dayOfWeek');
-
-    //         const midwivesQuery = await pool.query("SELECT id, availability FROM dev.midwives");
-    //         const midwives = midwivesQuery.rows;
-    //         console.log(JSON.stringify(midwives), 'midwives query');
-
-    //         const bookedQuery = await pool.query("SELECT midwiveid, consultation_time FROM dev.consultations WHERE consultation_date = $1", [date]);
-    //         console.log(bookedQuery.rows, 'bookedQuery.rows');
-
-    //         // Convert booked times to a set for quick lookup
-    //         const bookedMap = new Map();
-    //         bookedQuery.rows.forEach(({ midwiveid, consultation_time }) => {
-    //             if (!bookedMap.has(midwiveid)) {
-    //                 bookedMap.set(midwiveid, new Set());
-    //             }
-    //             bookedMap.get(midwiveid).add(consultation_time);
-    //         });
-
-    //         let availableSlots = [];
-
-    //         midwives.forEach(midwife => {
-    //             let midwifeAvailableSlots = [];
-    //             const bookedTimes = bookedMap.get(midwife.id) || new Set();
-
-    //             if (midwife.availability[dayOfWeek]) {
-    //                 midwife.availability[dayOfWeek].forEach(slot => {
-    //                     let [startTime, endTime] = slot.split('-');
-
-    //                     let startMinutes = convertToMinutes(startTime);
-    //                     let endMinutes = convertToMinutes(endTime);
-
-    //                     let adjustedSlots = [];
-
-    //                     while (startMinutes < endMinutes) {
-    //                         let formattedStart = convertToTime(startMinutes);
-    //                         let formattedEnd = convertToTime(startMinutes + 60);
-
-    //                         // Ensure both the booked time and the next 60 minutes are excluded
-    //                         let isBooked = bookedTimes.has(`${formattedStart}:00`) || bookedTimes.has(`${convertToTime(startMinutes - 60)}:00`);
-    //                         if (!isBooked) {
-    //                             adjustedSlots.push(`${formattedStart}-${formattedEnd}`);
-    //                         }
-
-    //                         startMinutes += 60;
-    //                     }
-
-    //                     midwifeAvailableSlots.push(...adjustedSlots);
-    //                 });
-    //             }
-
-    //             if (midwifeAvailableSlots.length > 0) {
-    //                 availableSlots.push({ midwiveId: midwife.id, availableSlots: midwifeAvailableSlots });
-    //             }
-    //         });
-
-    //         return {
-    //             "msg": "All Available Slots",
-    //             "data": {
-    //                 "availableSlots": availableSlots
-    //             }
-    //         };
-    //     } 
-    //     catch (error) {
-    //         console.log(error);
-    //         throw new Error("Error fetching available slots");
-    //     }
-    // }
-
     checkAvailableSlots: async (date) => {
         try {
             const dayOfWeek = new Date(date).toLocaleString('en-us', { weekday: 'long' }).toLowerCase();
@@ -143,6 +72,8 @@ module.exports = {
 
             const midwivesQuery = await pool.query("SELECT id, availability FROM dev.midwives");
             const midwives = midwivesQuery.rows;
+
+            console.log(JSON.stringify(midwives))
 
             const bookedQuery = await pool.query("SELECT midwiveid, consultation_time FROM dev.consultations WHERE consultation_date = $1",[date]);
 
@@ -157,6 +88,8 @@ module.exports = {
                 bookedMap.get(midwiveid).add(`${bookedTime}-${nextSlot}`);
 
             });
+
+            console.log(bookedQuery.rows,'bookedQuery')
 
 
             let availableSlots = [];
