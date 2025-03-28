@@ -5,7 +5,7 @@ module.exports = {
     
     createUser: async (uid, email, name, image) => {
         try {
-            const newUser = await pool.query("INSERT INTO dev.users (uid, email, username, profile_image) VALUES ($1, $2, $3, $4) RETURNING *",[uid, email, name, image]);
+            const newUser = await pool.query("INSERT INTO dev.users (uid, email, name, profile_image) VALUES ($1, $2, $3, $4) RETURNING *",[uid, email, name, image]);
 
             return newUser.rows[0];
         } 
@@ -44,7 +44,7 @@ module.exports = {
     },
     updateUsername: async (id, newUsername) => {
         try {
-            const updatedUser = await pool.query("UPDATE dev.users SET username = $1 WHERE user_id = $2 RETURNING *",[newUsername, id]);
+            const updatedUser = await pool.query("UPDATE dev.users SET name = $1 WHERE user_id = $2 RETURNING *",[newUsername, id]);
             return updatedUser;
         } 
         catch (error) {
