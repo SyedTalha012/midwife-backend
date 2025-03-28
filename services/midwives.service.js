@@ -3,7 +3,7 @@ const { pool } = require("../config/db.config");
 module.exports = {
     createMidwife: async (name, email, availability) => {
         try {
-            const newMidwife = await pool.query("INSERT INTO midwives (name, email, availability) VALUES ($1, $2, $3) RETURNING *", [name, email, availability]);
+            const newMidwife = await pool.query("INSERT INTO dev.midwives (name, email, availability) VALUES ($1, $2, $3) RETURNING *", [name, email, availability]);
             return newMidwife.rows[0];
         }
         catch (error) {
@@ -14,7 +14,7 @@ module.exports = {
 
     getAllMidwives: async () => {
         try {
-            const midwives = await pool.query("SELECT * FROM midwives ORDER BY id DESC");
+            const midwives = await pool.query("SELECT * FROM dev.midwives ORDER BY id DESC");
             return midwives.rows;
         } catch (error) {
             console.error("Error in getAllMidwives:", error);
