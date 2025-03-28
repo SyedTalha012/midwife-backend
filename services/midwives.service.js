@@ -70,11 +70,11 @@ module.exports = {
     //         const dayOfWeek = new Date(date).toLocaleString('en-us', { weekday: 'long' }).toLowerCase();
     //         console.log(dayOfWeek, 'dayOfWeek');
 
-    //         const midwivesQuery = await pool.query("SELECT id, availability FROM public.midwives");
+    //         const midwivesQuery = await pool.query("SELECT id, availability FROM dev.midwives");
     //         const midwives = midwivesQuery.rows;
     //         console.log(JSON.stringify(midwives), 'midwives query');
 
-    //         const bookedQuery = await pool.query("SELECT midwiveid, consultation_time FROM public.consultations WHERE consultation_date = $1", [date]);
+    //         const bookedQuery = await pool.query("SELECT midwiveid, consultation_time FROM dev.consultations WHERE consultation_date = $1", [date]);
     //         console.log(bookedQuery.rows, 'bookedQuery.rows');
 
     //         // Convert booked times to a set for quick lookup
@@ -141,22 +141,21 @@ module.exports = {
             const dayOfWeek = new Date(date).toLocaleString('en-us', { weekday: 'long' }).toLowerCase();
             console.log(`[INFO] Day of the week: ${dayOfWeek}`);
 
-            const midwivesQuery = await pool.query("SELECT id, availability FROM public.midwives");
+            const midwivesQuery = await pool.query("SELECT id, availability FROM dev.midwives");
             const midwives = midwivesQuery.rows;
 
-            const bookedQuery = await pool.query("SELECT midwiveid, consultation_time FROM public.consultations WHERE consultation_date = $1",[date]);
+            const bookedQuery = await pool.query("SELECT midwiveid, consultation_time FROM dev.consultations WHERE consultation_date = $1",[date]);
 
-            // Convert booked times into a Map for fast lookup
             const bookedMap = new Map();
             bookedQuery.rows.forEach(({ midwiveid, consultation_time }) => {
-                if (!bookedMap.has(midwiveid)) {
-                    bookedMap.set(midwiveid, new Set());
-                }
+                
+                if (!bookedMap.has(midwiveid)) { bookedMap.set(midwiveid, new Set());}
 
                 let bookedTime = formatTime(consultation_time);
                 let nextSlot = addMinutesToTime(bookedTime, 60);
 
                 bookedMap.get(midwiveid).add(`${bookedTime}-${nextSlot}`);
+
             });
 
 
@@ -182,7 +181,8 @@ module.exports = {
 
                             if (bookedTimes.has(fullSlot)) {
                                 console.log(`[WARNING] Slot ${fullSlot} is booked for midwife ${midwife.id}, removing...`);
-                            } else {
+                            } 
+                            else {
                                 midwifeAvailableSlots.push(fullSlot);
                             }
 
@@ -194,7 +194,8 @@ module.exports = {
                 if (midwifeAvailableSlots.length > 0) {
                     console.log(`[INFO] Available slots for midwife ${midwife.id}:`, JSON.stringify(midwifeAvailableSlots, null, 2));
                     availableSlots.push({ midwiveId: midwife.id, availableSlots: midwifeAvailableSlots });
-                } else {
+                } 
+                else {
                     console.log(`[WARNING] No available slots for midwife ${midwife.id}`);
                 }
             });
