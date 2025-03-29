@@ -8,13 +8,14 @@ const path = require('path');
 
 
 const fruitsPath = path.join(__dirname, 'fruits');
+const uploadsPath = path.join(__dirname, 'uploads');
 
 const app = express()
 const port = process.env.PORT || 3001
 app.use(express.json())
 app.use(cors({origin:"*"}))
 app.use("/api/v1",combineRouter)
-app.use("/uploads", express.static("uploads"));
+app.use("/uploads", express.static(uploadsPath));
 app.use('/fruits', express.static(fruitsPath));
 
 
