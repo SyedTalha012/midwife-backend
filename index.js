@@ -2,10 +2,12 @@ const express = require("express")
 const cors = require("cors")
 const combineRouter = require("./routers")
 const {dbConnection} = require("./config/db.config")
+const path = require('path');
 
 
 
 
+const fruitsPath = path.join(__dirname, 'fruits');
 
 const app = express()
 const port = process.env.PORT || 3001
@@ -13,7 +15,7 @@ app.use(express.json())
 app.use(cors({origin:"*"}))
 app.use("/api/v1",combineRouter)
 app.use("/uploads", express.static("uploads"));
-app.use("/fruits", express.static("fruits"));
+app.use('/fruits', express.static(fruitsPath));
 
 
 dbConnection();
