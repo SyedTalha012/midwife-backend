@@ -2,9 +2,9 @@ const { pool } = require("../config/db.config");
 
 module.exports = {
     
-    create: async (user_id, consultation_date, consultation_time,midwiveId) => {
+    create: async (user_id, consultation_date, consultation_time,midwiveId,notes) => {
         try {
-            const newConsultation = await pool.query("INSERT INTO dev.consultations (user_id, consultation_date, consultation_time,midwiveId) VALUES ($1, $2, $3, $4) RETURNING *",[user_id, consultation_date, consultation_time,midwiveId]);
+            const newConsultation = await pool.query("INSERT INTO dev.consultations (user_id, consultation_date, consultation_time,midwiveId,notes) VALUES ($1, $2, $3, $4, $4) RETURNING *",[user_id, consultation_date, consultation_time,midwiveId,notes]);
             return newConsultation.rows[0];
         } 
         catch (error) {

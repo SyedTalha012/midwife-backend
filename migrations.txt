@@ -20,6 +20,9 @@ CREATE TABLE public.consultations (
     midwiveId TEXT NOT NULL
 );
 
+ALTER TABLE dev.consultations
+ADD COLUMN notes TEXT
+
 CREATE TABLE public.midwives (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
