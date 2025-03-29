@@ -13,6 +13,7 @@ app.use(express.json())
 app.use(cors({origin:"*"}))
 app.use("/api/v1",combineRouter)
 app.use("/uploads", express.static("uploads"));
+app.use("/fruits", express.static("fruits"));
 
 
 dbConnection();
