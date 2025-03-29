@@ -4,7 +4,7 @@ module.exports = {
     
     create: async (user_id, consultation_date, consultation_time,midwiveId,notes) => {
         try {
-            const newConsultation = await pool.query("INSERT INTO dev.consultations (user_id, consultation_date, consultation_time,midwiveId,notes) VALUES ($1, $2, $3, $4, $4) RETURNING *",[user_id, consultation_date, consultation_time,midwiveId,notes]);
+            const newConsultation = await pool.query("INSERT INTO dev.consultations (user_id, consultation_date, consultation_time,midwiveId,notes) VALUES ($1, $2, $3, $4, $5) RETURNING *",[user_id, consultation_date, consultation_time,midwiveId,notes]);
             return newConsultation.rows[0];
         } 
         catch (error) {

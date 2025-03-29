@@ -1,10 +1,19 @@
+const { sendDynamicMail } = require("../helpers/email");
+const { findUserById } = require("../services/auth.services");
 const {create,findConsultationById,findConsultationByUserId,updateConsultationTime,updateConsultationStatus,deleteConsultation, getAllConsultations} = require("../services/consultation.service");
 
 const createConsultation = async (req, res) => {
     try {
         let { user_id, consultation_date, consultation_time,midwiveId,notes } = req.body;
-        let response = await create(user_id, consultation_date, consultation_time,midwiveId,notes);
-        res.status(201).json({ message: "Consultation created successfully", data: response });
+        let userExists = await findUserById(user_id);
+        if(userExists?.rows?.length>0){
+            let mail =await sendDynamicMail("appointment",userExists?.rows[0]?.name,userExists?.rows[0]?.email,notes,consultation_date,consultation_time)
+            let response = await create(user_id, consultation_date, consultation_time,midwiveId,notes);
+            res.status(201).json({ message: "Consultation created successfully", data: response });
+        }
+        else{
+            res.status(404).json({ message: "Invalid User Id", data:null });
+        }
     } 
     catch (error) {
         console.log(error);
