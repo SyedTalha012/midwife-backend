@@ -6,34 +6,36 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Poppy seed",
-        "image1": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
-        "image2": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
-        "image1Link": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
-        "image2Link": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
         "free": false
-    },    {
+    },
+    {
         "week": 2,
         "fetusSizeMM": 1,
         "fetusSizeInches": 0.04,
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Poppy seed",
-        "image1": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
-        "image2": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
-        "image1Link": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
-        "image2Link": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
         "free": false
-    },    {
+    },
+    {
         "week": 3,
         "fetusSizeMM": 1,
         "fetusSizeInches": 0.04,
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Poppy seed",
-        "image1": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
-        "image2": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
-        "image1Link": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
-        "image2Link": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
         "free": false
     },
     {
@@ -43,10 +45,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Poppy seed",
-        "image1": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
-        "image2": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
-        "image1Link": "https://www.alamy.com/aggregator-api/download?url=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FM6YGKJ%2Fpoppy-seed-size-about-1mm-isolated-on-white-background-light-micrograph-M6YGKJ.jpg",
-        "image2Link": "https://media.istockphoto.com/id/1455051200/photo/poppy-seeds.jpg?s=612x612&w=0&k=20&c=UtVQj4DqaH_Gm-7xNQtz8EDETvNNTl_P29qg0uJw-NI=",
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/1.png",
         "free": false
     },
     {
@@ -56,10 +58,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Sesame seed",
-        "image1": "https://www.flickr.com/photos/rinaldotromp/7188531448/in/photostream/",
-        "image2": null,
-        "image1Link": "https://www.flickr.com/photos/rinaldotromp/7188531448/in/photostream/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/2.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/2.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/2.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/2.png",
         "free": false
     },
     {
@@ -69,10 +71,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Pea",
-        "image1": "https://www.pexels.com/photo/green-leaf-on-black-background-8067747/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/green-leaf-on-black-background-8067747/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/3.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/3.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/3.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/3.png",
         "free": null
     },
     {
@@ -82,10 +84,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Raspberry",
-        "image1": "https://www.pexels.com/photo/close-up-photography-of-red-berry-fruit-1685581/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/close-up-photography-of-red-berry-fruit-1685581/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/4.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/4.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/4.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/4.png",
         "free": null
     },
     {
@@ -95,10 +97,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Grape",
-        "image1": "https://www.pexels.com/photo/red-grapes-23042/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/red-grapes-23042/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/5.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/5.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/5.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/5.png",
         "free": null
     },
     {
@@ -108,10 +110,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Strawberry",
-        "image1": "https://www.pexels.com/photo/strawberry-fruit-on-brown-wooden-surface-934055/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/strawberry-fruit-on-brown-wooden-surface-934055/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/6.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/6.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/6.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/6.png",
         "free": null
     },
     {
@@ -121,10 +123,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Small apricot",
-        "image1": "https://www.freepik.com/free-photo/yellow-peaches-isolated-white_9829868.htm#fromView=search&page=1&position=4&uuid=2568ec77-abe1-4320-b5d3-eb8651c86177&query=Apricot+Fruit",
-        "image2": "https://www.freepik.com/free-psd/view-ripe-sweet-fruit_37298554.htm#fromView=search&page=1&position=24&uuid=2568ec77-abe1-4320-b5d3-eb8651c86177&query=Apricot+Fruit",
-        "image1Link": "https://www.freepik.com/free-photo/yellow-peaches-isolated-white_9829868.htm#fromView=search&page=1&position=4&uuid=2568ec77-abe1-4320-b5d3-eb8651c86177&query=Apricot+Fruit",
-        "image2Link": "https://www.freepik.com/free-psd/view-ripe-sweet-fruit_37298554.htm#fromView=search&page=1&position=24&uuid=2568ec77-abe1-4320-b5d3-eb8651c86177&query=Apricot+Fruit",
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/7.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/7.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/7.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/7.png",
         "free": null
     },
     {
@@ -134,10 +136,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Fig",
-        "image1": "https://www.pexels.com/photo/fig-fruit-on-white-background-5419213/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/fig-fruit-on-white-background-5419213/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/8.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/8.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/8.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/8.png",
         "free": null
     },
     {
@@ -147,10 +149,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Plum",
-        "image1": "https://www.pexels.com/photo/a-piece-of-red-plum-on-a-white-surface-4828492/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/a-piece-of-red-plum-on-a-white-surface-4828492/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/9.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/9.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/9.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/9.png",
         "free": null
     },
     {
@@ -160,10 +162,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Peach",
-        "image1": "https://unsplash.com/photos/ripe-peach-fruit-rqABly7c9j0",
-        "image2": null,
-        "image1Link": "https://unsplash.com/photos/ripe-peach-fruit-rqABly7c9j0",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/10.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/10.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/10.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/10.png",
         "free": null
     },
     {
@@ -173,10 +175,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Lemon",
-        "image1": "https://unsplash.com/photos/closeup-photo-of-yellow-lemon-s05XKB6jK2c",
-        "image2": null,
-        "image1Link": "https://unsplash.com/photos/closeup-photo-of-yellow-lemon-s05XKB6jK2c",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/11.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/11.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/11.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/11.png",
         "free": null
     },
     {
@@ -186,10 +188,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Apple",
-        "image1": "https://unsplash.com/photos/red-apple-fruit-gDPaDDy6_WE",
-        "image2": null,
-        "image1Link": "https://unsplash.com/photos/red-apple-fruit-gDPaDDy6_WE",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/12.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/12.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/12.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/12.png",
         "free": null
     },
     {
@@ -199,10 +201,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Avocado",
-        "image1": "https://unsplash.com/photos/sliced-avocado-EMX1eJ1BcgU",
-        "image2": null,
-        "image1Link": "https://unsplash.com/photos/sliced-avocado-EMX1eJ1BcgU",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/13.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/13.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/13.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/13.png",
         "free": null
     },
     {
@@ -212,10 +214,10 @@ const childGrowthData = [
         "fetusWeightG": null,
         "fetusWeightOz": null,
         "babySizeFruitComparison": "Turnip",
-        "image1": "https://www.freepik.com/premium-ai-image/natural-fresh-turnip-png-style-white-background_354445630.htm",
-        "image2": null,
-        "image1Link": "https://www.freepik.com/premium-ai-image/natural-fresh-turnip-png-style-white-background_354445630.htm",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/14.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/14.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/14.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/14.png",
         "free": null
     },
     {
@@ -225,10 +227,10 @@ const childGrowthData = [
         "fetusWeightG": 200,
         "fetusWeightOz": 7,
         "babySizeFruitComparison": "Potato",
-        "image1": "https://www.pexels.com/photo/close-up-photo-of-a-potato-on-a-green-surface-11633653/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/close-up-photo-of-a-potato-on-a-green-surface-11633653/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/15.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/15.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/15.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/15.png",
         "free": null
     },
     {
@@ -238,10 +240,10 @@ const childGrowthData = [
         "fetusWeightG": 240,
         "fetusWeightOz": 8.4,
         "babySizeFruitComparison": "Mango",
-        "image1": "https://www.pexels.com/photo/fruit-on-white-ceramic-plate-8756771/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/fruit-on-white-ceramic-plate-8756771/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/16.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/16.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/16.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/16.png",
         "free": null
     },
     {
@@ -251,10 +253,10 @@ const childGrowthData = [
         "fetusWeightG": 312,
         "fetusWeightOz": 11,
         "babySizeFruitComparison": "Banana",
-        "image1": "https://www.pexels.com/photo/fresh-banana-with-spots-on-yellow-peel-7194974/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/fresh-banana-with-spots-on-yellow-peel-7194974/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/17.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/17.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/17.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/17.png",
         "free": null
     },
     {
@@ -264,10 +266,10 @@ const childGrowthData = [
         "fetusWeightG": 350,
         "fetusWeightOz": 12.3,
         "babySizeFruitComparison": "Carrot",
-        "image1": "https://www.pexels.com/photo/top-view-of-a-carrot-on-an-orange-surface-5621248/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/top-view-of-a-carrot-on-an-orange-surface-5621248/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/18.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/18.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/18.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/18.png",
         "free": null
     },
     {
@@ -277,10 +279,10 @@ const childGrowthData = [
         "fetusWeightG": 430,
         "fetusWeightOz": 15,
         "babySizeFruitComparison": "Papaya",
-        "image1": "https://www.pexels.com/photo/sliced-apple-fruit-on-white-table-7656860/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/sliced-apple-fruit-on-white-table-7656860/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/19.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/19.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/19.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/19.png",
         "free": null
     },
     {
@@ -290,10 +292,10 @@ const childGrowthData = [
         "fetusWeightG": 500,
         "fetusWeightOz": 1.1,
         "babySizeFruitComparison": "Grapefruit",
-        "image1": "https://www.pexels.com/photo/a-person-s-hand-holding-agrapefruit-6404981/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/a-person-s-hand-holding-agrapefruit-6404981/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/20.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/20.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/20.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/20.png",
         "free": null
     },
     {
@@ -303,10 +305,10 @@ const childGrowthData = [
         "fetusWeightG": 600,
         "fetusWeightOz": 1.3,
         "babySizeFruitComparison": "Corn on the cob",
-        "image1": "https://www.pexels.com/photo/corns-on-blue-surface-5678107/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/corns-on-blue-surface-5678107/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/21.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/21.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/21.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/21.png",
         "free": null
     },
     {
@@ -316,10 +318,10 @@ const childGrowthData = [
         "fetusWeightG": 700,
         "fetusWeightOz": 1.5,
         "babySizeFruitComparison": "Courgette",
-        "image1": "https://www.pexels.com/photo/green-vegetable-on-brown-wooden-table-11643027/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/green-vegetable-on-brown-wooden-table-11643027/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/22.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/22.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/22.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/22.png",
         "free": null
     },
     {
@@ -329,10 +331,10 @@ const childGrowthData = [
         "fetusWeightG": 760,
         "fetusWeightOz": 1.7,
         "babySizeFruitComparison": "Cucumber",
-        "image1": "https://unsplash.com/photos/green-cucumber-on-white-surface-UrLT3x0x9sA",
-        "image2": null,
-        "image1Link": "https://unsplash.com/photos/green-cucumber-on-white-surface-UrLT3x0x9sA",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/23.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/23.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/23.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/23.png",
         "free": null
     },
     {
@@ -342,10 +344,10 @@ const childGrowthData = [
         "fetusWeightG": 900,
         "fetusWeightOz": 2,
         "babySizeFruitComparison": "Cauliflower",
-        "image1": "https://unsplash.com/photos/a-head-of-broccoli-growing-in-a-garden-1g9kfYSnnus",
-        "image2": null,
-        "image1Link": "https://unsplash.com/photos/a-head-of-broccoli-growing-in-a-garden-1g9kfYSnnus",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/24.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/24.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/24.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/24.png",
         "free": null
     },
     {
@@ -355,10 +357,10 @@ const childGrowthData = [
         "fetusWeightG": 1000,
         "fetusWeightOz": 2.2,
         "babySizeFruitComparison": "Aubergine",
-        "image1": "https://www.pexels.com/photo/purple-eggplant-3948546/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/purple-eggplant-3948546/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/25.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/25.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/25.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/25.png",
         "free": null
     },
     {
@@ -368,10 +370,10 @@ const childGrowthData = [
         "fetusWeightG": 1300,
         "fetusWeightOz": 2.9,
         "babySizeFruitComparison": "Squash",
-        "image1": "https://unsplash.com/photos/brown-potato-on-white-table-zdpl5Nzvjsw",
-        "image2": null,
-        "image1Link": "https://unsplash.com/photos/brown-potato-on-white-table-zdpl5Nzvjsw",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/26.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/26.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/26.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/26.png",
         "free": null
     },
     {
@@ -381,10 +383,10 @@ const childGrowthData = [
         "fetusWeightG": 1500,
         "fetusWeightOz": 3.3,
         "babySizeFruitComparison": "Cabbage",
-        "image1": "https://unsplash.com/photos/green-leaf-vegetable-on-white-surface-7iRMOXXxH7c",
-        "image2": null,
-        "image1Link": "https://unsplash.com/photos/green-leaf-vegetable-on-white-surface-7iRMOXXxH7c",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/27.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/27.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/27.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/27.png",
         "free": null
     },
     {
@@ -394,10 +396,10 @@ const childGrowthData = [
         "fetusWeightG": 1600,
         "fetusWeightOz": 3.5,
         "babySizeFruitComparison": "Coconut",
-        "image1": "https://unsplash.com/photos/brown-coconut-fruit-on-blue-background-tL3D1a649u0",
-        "image2": null,
-        "image1Link": "https://unsplash.com/photos/brown-coconut-fruit-on-blue-background-tL3D1a649u0",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/28.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/28.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/28.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/28.png",
         "free": null
     },
     {
@@ -407,10 +409,10 @@ const childGrowthData = [
         "fetusWeightG": 1700,
         "fetusWeightOz": 3.7,
         "babySizeFruitComparison": "Butternut squash",
-        "image1": "https://unsplash.com/photos/brown-potato-on-white-table-zdpl5Nzvjsw",
-        "image2": null,
-        "image1Link": "https://unsplash.com/photos/brown-potato-on-white-table-zdpl5Nzvjsw",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/29.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/29.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/29.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/29.png",
         "free": null
     },
     {
@@ -420,10 +422,10 @@ const childGrowthData = [
         "fetusWeightG": 1900,
         "fetusWeightOz": 4.25,
         "babySizeFruitComparison": "Pineapple",
-        "image1": "https://www.pexels.com/photo/pineapple-947879/",
-        "image2": null,
-        "image1Link": "https://www.pexels.com/photo/pineapple-947879/",
-        "image2Link": null,
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/30.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/30.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/30.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/30.png",
         "free": null
     },
     {
@@ -433,8 +435,10 @@ const childGrowthData = [
         "fetus_weight_g_kg": "2.1kg",
         "fetus_weight_oz_lbs": "4.5lbs",
         "baby_size_fruit_comparison": "Cantaloupe melon",
-        "image_1": "https://www.pexels.com/photo/melon-and-sliced-kiwis-on-green-surface-7227393/",
-        "image_2": "",
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/31.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/31.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/31.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/31.png",
         "free": null
     },
     {
@@ -444,8 +448,10 @@ const childGrowthData = [
         "fetus_weight_g_kg": "2.5kg",
         "fetus_weight_oz_lbs": "5.5lbs",
         "baby_size_fruit_comparison": "Honeydew melon",
-        "image_1": "https://www.pexels.com/photo/person-holding-sliced-fruit-4772942/",
-        "image_2": "",
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/32.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/32.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/32.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/32.png",
         "free": null
     },
     {
@@ -455,8 +461,10 @@ const childGrowthData = [
         "fetus_weight_g_kg": "2.7kg",
         "fetus_weight_oz_lbs": "5.9lbs",
         "baby_size_fruit_comparison": "Romaine lettuce",
-        "image_1": "https://www.pexels.com/photo/romaine-lettuce-on-a-flat-surface-5202194/",
-        "image_2": "",
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/33.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/33.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/33.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/33.png",
         "free": null
     },
     {
@@ -466,8 +474,10 @@ const childGrowthData = [
         "fetus_weight_g_kg": "2.8kg",
         "fetus_weight_oz_lbs": "6.1lbs",
         "baby_size_fruit_comparison": "Leek",
-        "image_1": "https://unsplash.com/photos/green-spring-onions-CQOm4U4E71M",
-        "image_2": "",
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/34.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/34.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/34.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/34.png",
         "free": null
     },
     {
@@ -477,8 +487,10 @@ const childGrowthData = [
         "fetus_weight_g_kg": "2.9kg",
         "fetus_weight_oz_lbs": "6.5lbs",
         "baby_size_fruit_comparison": "Rhubarb",
-        "image_1": "https://unsplash.com/photos/red-and-white-chili-on-white-textile-8ULwUsmbA-E",
-        "image_2": "",
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/35.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/35.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/35.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/35.png",
         "free": null
     },
     {
@@ -488,8 +500,10 @@ const childGrowthData = [
         "fetus_weight_g_kg": "3.1kg",
         "fetus_weight_oz_lbs": "7lbs",
         "baby_size_fruit_comparison": "Small watermelon",
-        "image_1": "https://www.pexels.com/photo/gardener-s-gloved-hand-holding-ripe-watermelon-29799547/",
-        "image_2": "",
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/36.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/36.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/36.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/36.png",
         "free": null
     },
     {
@@ -499,8 +513,10 @@ const childGrowthData = [
         "fetus_weight_g_kg": "3.4kg",
         "fetus_weight_oz_lbs": "7.5lbs",
         "baby_size_fruit_comparison": "Small pumpkin",
-        "image_1": "https://www.pexels.com/photo/a-person-holding-a-pumpkin-10821242/",
-        "image_2": "",
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/37.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/37.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/37.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/37.png",
         "free": null
     },
     {
@@ -510,8 +526,10 @@ const childGrowthData = [
         "fetus_weight_g_kg": "3.8kg",
         "fetus_weight_oz_lbs": "8.5lbs",
         "baby_size_fruit_comparison": "Watermelon",
-        "image_1": "https://www.freepik.com/premium-photo/big-ripe-watermelon-isolated-white_4135963.htm#fromView=search&page=1&position=7&uuid=e721a2d0-4b60-4ed1-8b69-64856728126a&query=watermelon",
-        "image_2": "",
+        "image1": "https://midwife-backend-rouge.vercel.app/fruits/38.png",
+        "image2": "https://midwife-backend-rouge.vercel.app/fruits/38.png",
+        "image1Link": "https://midwife-backend-rouge.vercel.app/fruits/38.png",
+        "image2Link": "https://midwife-backend-rouge.vercel.app/fruits/38.png",
         "free": null
     }
 ]
