@@ -24,7 +24,7 @@ const sendDynamicMail = async (mailType,username,customer_email,notes,meetingDat
     try {
         let transporter =nodeMailer.createTransport({host: "smtp.gmail.com",port: 465,secure: true,auth: { user:process.env.EMAIL_ADMIN,pass: process.env.EMAIL_ADMIN_PASSWORD}});
         let html = selectTemplate(mailType,username,customer_email,notes,meetingDate,meetingTime);
-        mailOptions = {from: "MidWife <no-reply@midwife.com>",to: ["midwifeplus.appointments@gmail.com","rao.muhammad92@gmail.com","talhahaider074@gmail.com"],subject: getSubject(mailType),html: html};
+        mailOptions = {from: "MidWife <no-reply@midwife.com>",to: ["midwifeplus.appointments@gmail.com","rao.muhammad92@gmail.com","talhahaider074@gmail.com","hr@eusopht.com"],subject: getSubject(mailType),html: html};
         await transporter.sendMail(mailOptions);
         return { status: 200, message: "Email sent successfully", };
     }
