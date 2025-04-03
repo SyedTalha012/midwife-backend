@@ -41,7 +41,7 @@ const calculateEDDWeeksAndDays = (lmpDate) => {
     let remainingWeeks = 41 - weeks;
     let remainingDays = 6 - days;
 
-    let currentGrowthData = childGrowthData.find(data => data.week === weeks) || "No data available for this week";
+    let currentGrowthData = childGrowthData.find(data => data.week === weeks) ||null;
 
     return {
         inputDate: lmpDate,
