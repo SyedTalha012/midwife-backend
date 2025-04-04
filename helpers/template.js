@@ -1,10 +1,13 @@
 
 
 module.exports = {
-    appointmentBookingTemplate: (username,customer_email,notes,meetingDate,meetingTime) => {
-        return `
-        <!DOCTYPE html>
-        <html lang="en">
+
+  appointmentBookingTemplate: (username, customer_email, notes, meetingDate, meetingTime) => {
+    return `
+    
+    <!DOCTYPE html>
+      
+      <html lang="en">
       
         <head>
           <meta charset="UTF-8">
@@ -52,6 +55,7 @@ module.exports = {
       
              </div>
           </body>
-        `
-    },
+      `
+  },
+
 }
